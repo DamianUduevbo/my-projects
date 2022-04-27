@@ -2,6 +2,36 @@
   text-align: center;
 }
 
+.App-navbar {
+  position:fixed;
+  top: 30px;
+  color: black;
+  background-color: #ffffff;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto;
+  gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.projDesc {
+  margin-top: 2px;
+  inline-size: 235px;
+  overflow-wrap: break-word;
+}
+
+.new-button {
+  width: 150
+}
+
+.item1 {
+  grid-row-start: 1;
+  grid-row-end: 1;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
