@@ -14,6 +14,7 @@
   grid-template-columns: auto;
   gap: 10px;
   background-color: #2196F3;
+  border-radius: 5px;
   padding: 10px;
 }
 
@@ -23,8 +24,37 @@
   overflow-wrap: break-word;
 }
 
-.new-button {
-  width: 150
+.defaultButton {
+  margin: 1;
+  width: 250px;
+  border-radius: 5px;
+}
+
+.openButton {
+  margin: 1;
+  width: 250px;
+  height: 150px;
+  border-radius: 5px 15px;
+  animation-name: openAnim;
+  animation-duration: 1s;
+}
+
+.closeButton {
+  margin: 1;
+  width: 250px;
+  border-radius: 5px;
+  animation-name: closeAnim;
+  animation-duration: 1s;
+}
+
+@keyframes openAnim {
+  from {margin: 1px; width: 250px; height: 22px; border-radius: 5px}
+  to {margin: 1px; width: 250px; height: 150px; border-radius: 5px 15px}
+}
+
+@keyframes closeAnim {
+  from {margin: 1px; width: 250px; height: 150px; border-radius: 5px 15px}
+  to {margin: 1px; width: 250px; height: 22px; border-radius: 5px}
 }
 
 .item1 {
@@ -44,6 +74,7 @@
 }
 
 .App-header {
+  background-image: linear-gradient(180deg, rgb(255, 255, 255), rgb(255, 255, 255), rgb(255, 228, 203) );
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
