@@ -1,3 +1,7 @@
+# Showcasing My Projects
+
+A ReactJS website hosted on GutHub Pages showcasing some of my most recent projects. More CSS was used in this project for animations and colour manipulation.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
